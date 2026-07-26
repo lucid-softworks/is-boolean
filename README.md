@@ -6,6 +6,7 @@ Check for the primitive values `true` and `false`, narrowing unknown input to
 ```ts
 import { isBoolean } from "@lucid-softworks/is-boolean";
 
+const value: unknown = true;
 if (isBoolean(value)) {
   value satisfies boolean;
 }
